@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+
+}
+#panel {
+   
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.item {
+    display: flex;
+}
+.item:nth-child(odd) {
+    background-color: rgb(98, 132, 143);
+    
+}
+.item:nth-child(even) {
+    background-color: lightblue;
+   
+}
+.flag {
+    width: 100px;
+    margin-right: 20px;
+}
+.flag img {
+    width:100%;
+    margin-top: 35%;
+    margin-left: 10px;
+}
+.content {
+    text-align: left;
+}
+.content p {
+    color: rgb(3, 21, 29); 
+    font-size: 10px;
+    
+}
